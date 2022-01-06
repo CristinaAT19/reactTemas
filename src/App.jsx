@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import RouteApp from "./routes/RouteApp";
 
 const App = () => {
-    return (
-        <>
-            <h1>Hello world</h1>
-        </>
-    )
-}
+  return (
+    <>
+      <RouteApp/>
+    </>
+  );
+};
 
-export default App
+export default App;
